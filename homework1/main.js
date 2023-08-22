@@ -29,9 +29,9 @@ console.log(var12);
 console.log(var13);
 
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
-let firstName = 'Maksym';
-let middleName = 'Volodumirovich';
-let lastName = 'Fedenko';
+let firstName = 'Volodimir';
+let middleName = 'Navrotskyi';
+let lastName = 'Mychailovich';
 
 const result1 = firstName + ' ' + middleName + " " + lastName;
 console.log(result1);
