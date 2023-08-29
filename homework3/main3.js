@@ -118,19 +118,19 @@ let users = [
 //     - користувачів зі статусом true
 
 for (const user of users) {
-  if (user.status) {
-      document.write(`<hr/>`)
-      document.write(`<div>Name: ${user.name} <br/> Age: ${user.age} Status: ${user.status}</div>`);
-      document.write(`<hr/>`)
-  }
+    if (user.status) {
+        document.write(`<hr/>`)
+        document.write(`<div>Name: ${user.name} <br/> Age: ${user.age} Status: ${user.status}</div>`);
+        document.write(`<hr/>`)
+    }
 }
 // - користувачів зі статусом false
 for (const user of users) {
-  if (!user.status) {
-      document.write(`<hr/>`)
-      document.write(`<div>Name: ${user.name} <br/> Age: ${user.age} Status: ${user.status}</div>`);
-      document.write(`<hr/>`)
-  }
+    if (!user.status) {
+        document.write(`<hr/>`)
+        document.write(`<div>Name: ${user.name} <br/> Age: ${user.age} Status: ${user.status}</div>`);
+        document.write(`<hr/>`)
+    }
 }
 // - користувачів які старші за 30 років
 for (const user of users) {
